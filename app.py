@@ -29,7 +29,7 @@ if st.button("Generate New Image ✨"):
             # குறிப்பு: இங்கு உங்கள் AI API (உதா: Stability AI / Hugging Face) முகவரியை இணைக்க வேண்டும்
             # இது ஒரு மாதிரி (Example) API அழைப்பு மட்டுமே
             API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
-            headers = {"Authorization": "Bearer YOUR_API_KEY_HERE"} # உங்கள் API Key-ஐ இங்கு இட வேண்டும்
+            headers = {"Authorization": "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"} # உங்கள் API Key-ஐ இங்கு இட வேண்டும்
             
             # கோப்பை AI-க்கு அனுப்ப தயார் செய்தல்
             bytes_data = uploaded_file.getvalue()
